@@ -45,7 +45,7 @@ It was released on September 2015
 ###### Maintainers
 -Kaijones23 [xda](https://forum.xda-developers.com/member.php?u=9605864)|[github](https://github.com/488315)
 
--HuckberryPie [xda](http://forum.xda-developers.com/member.php?u=4092918)|[github](https://github.com/huckleberrypie)
+-huckleberrypie [xda](http://forum.xda-developers.com/member.php?u=4092918)|[github](https://github.com/huckleberrypie)
 
 -R0rtiz [xda](https://forum.xda-developers.com/member.php?u=8978978)|[github](https://github.com/R0rt1z2)
 
