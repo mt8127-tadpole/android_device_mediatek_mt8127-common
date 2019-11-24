@@ -1,15 +1,3 @@
-===================================
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | 1.3GHz Quad-Core MT8127
-GPU     | Mali-450MP
-Memory  | 1GB RAM
-Shipped Android Version | 4.4.2
-Kernel  | 3.4.64
-Storage | 8GB
-Display | 7" 1024 x 600 px
-Camera  | VGA (Front-Facing)
-
 ## Device configuration for LeapFrog Epic
 
 The LeapFrog Epic (codenamed "narnia/UYT") is a children's tablet developed and marketed by LeapFrog and manufactured by Quanta Computer.
@@ -20,6 +8,16 @@ It was announced on August 2015 and released on September 2015. Updated variants
 
 ![Leapfrog Epic](https://i.imgur.com/1Pr3fzG.png)
 
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | 1.3GHz Quad-Core MT8127
+GPU     | Mali-450MP
+Memory  | 1GB RAM
+Shipped Android Version | 4.4.2
+Kernel  | 3.4.64
+Storage | 8GB
+Display | 7" 1024 x 600 px
+Camera  | VGA (Front-Facing)
 
 ## Copyright
 
