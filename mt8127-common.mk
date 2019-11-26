@@ -50,19 +50,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_COMMON)/configs/media_profiles.xml:system/etc/media_profiles.xml \
     $(DEVICE_COMMON)/configs/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 
-# Bluetooth config files
-PRODUCT_COPY_FILES += \
-    $(DEVICE_DIR)/configs/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    $(DEVICE_DIR)/configs/bluetooth/btconfig.xml:system/etc/bluetooth/btconfig.xml
-
-# Wifi config files
-PRODUCT_COPY_FILES += \
-    $(DEVICE_DIR)/configs/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    $(DEVICE_DIR)/configs/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    $(DEVICE_DIR)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    $(DEVICE_DIR)/configs/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    $(DEVICE_DIR)/configs/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    $(DEVICE_DIR)/configs/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny
 
 # Audio
 PRODUCT_PACKAGES += \
