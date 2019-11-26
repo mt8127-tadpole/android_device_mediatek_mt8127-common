@@ -102,3 +102,18 @@ TARGET_LDPRELOAD += libxlog.so
 
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
+
+#ifneq (,$(strip $(wildcard bootable/recovery-twrp/twrp.cpp)))
+#RECOVERY_VARIANT := twrp
+#endif
+TARGET_RECOVERY_FSTAB := $(DEVICE_COMMON)/recovery.fstab
+TW_NO_EXFAT := true
+TWHAVE_SELINUX := true
+#TW_USE_TOOLBOX := true
+TW_NO_EXFAT_FUSE := true
+TW_THEME := landscape_mdpi
+RECOVERY_SDCARD_ON_DATA := true
+TW_EXCLUDE_SUPERSU := false
+TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+TW_DEVICE_VERSION=1
+TWRP_INCLUDE_LOGCAT := true
