@@ -93,7 +93,11 @@ PRODUCT_PACKAGES += \
 # network
 PRODUCT_PACKAGES += \
     netd
-    
+
+#libion
+PRODUCT_PACKAGES += \
+    libion
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
