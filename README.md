@@ -1,5 +1,12 @@
-Device Tree For Quanta Tab 2 A7-10F
-==============
+## Device configuration for LeapFrog Epic
+
+The LeapFrog Epic (codenamed "narnia/UYT") is a children's tablet developed and marketed by LeapFrog and manufactured by Quanta Computer.
+
+It was announced on August 2015 and released on September 2015. Updated variants of the device such as the LeapFrog Epic Academy Edition and the LeapPad Academy were also released in 2017 and 2019 respectively; they are essentially identical to the base model apart from (slightly) updated firmware, redesigned bumpers and access to the LeapFrog Academy programme.
+
+## Device Picture
+
+![Leapfrog Epic](https://i.imgur.com/1Pr3fzG.png)
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -11,17 +18,6 @@ Kernel  | 3.4.64
 Storage | 8GB
 Display | 7" 1024 x 600 px
 Camera  | VGA (Front-Facing)
-
-## Device configuration for Leapfrog Epic
-
-The LeapFrog Epic (codenamed "narnia/UYT") is a children's tablet developed by LeapFrog and manufactured by Quanta Computer.
-
-It was released on September 2015
-
-## Device Picture
-
-![Leapfrog Epic](https://i.imgur.com/1Pr3fzG.png)
-
 
 ## Copyright
 
