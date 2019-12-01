@@ -101,6 +101,7 @@ TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # libxlog
 TARGET_LDPRELOAD += libxlog.so
+TARGET_LDPRELOAD += libshim_hwc.so
 
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
