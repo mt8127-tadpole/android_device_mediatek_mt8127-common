@@ -2,6 +2,8 @@ DEVICE_COMMON := device/mediatek/mt8127-common
 KERNEL_COMMON := kernel/mediatek/mt8127-common
 VENDOR_COMMON := vendor/mediatek/mt8127-common
 
+include $(VENDOR_COMMON)/BoardConfigVendor.mk
+
 # headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_COMMON)/include
 
