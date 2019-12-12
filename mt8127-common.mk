@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netd
 
+PRODUCT_PACKAGES += \
+    lights.mt8127
+
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
