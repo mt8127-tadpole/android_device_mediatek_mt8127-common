@@ -81,6 +81,9 @@ MAX_EGL_CACHE_SIZE := 1024*1024
 # Display
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 
+# Include an expanded selection of fonts
+EXTENDED_FONT_FOOTPRINT := true
+
 # Surfaceflinger optimization for VD surfaces
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 #NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
