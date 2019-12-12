@@ -96,10 +96,10 @@ PRODUCT_PACKAGES += \
 
 WITH_EXFAT := true
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_UTC_DATE=0 \
-    PRODUCT_MODEL="EPICv2" \
-    TARGET_DEVICE="UYT2"
+# System Prop
+TARGET_SYSTEM_PROP += $(DEVICE_COMMON)/system.prop
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0 
 
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
